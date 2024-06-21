@@ -7,7 +7,7 @@ const Users = () =>{
     console.log({users});
     return(
         
-            <div className="users">
+            <div className="users-details">
                 {loading && <h2>loading Users...</h2>}
                 {errors.length>0 &&<h2>{errors}</h2>}
                 {users.length > 0

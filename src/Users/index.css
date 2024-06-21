@@ -1,29 +1,29 @@
-.users{
+.users-details{
     display: grid;
-    grid-template-columns: repeat(8, 200px);
-    grid-gap: 20px;
-    padding: 6%;
+    grid-template-columns: repeat(6, 200px);
+    grid-gap: 6%;
+    padding-left: 100px;
 }
-.users h2{
+.users-details h2{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    columns: #666;
+    columns: blue;
 }
-.users .user-card{
+.users-details .user-card{
     grid-row: auto;
     padding: 20px;
     border: 1px solid;
     border-radius: 10px;
 }
-.users .user-card img{
-    width: 100px;
-    height: 100px;
+.users-details .user-card img{
+    width: 200px;
+    height: 200px;
     border-radius: 50px;
     margin-bottom: 10px;
 }
-.users .user-card h3{
-    font-size: 15px;
+.users-details .user-card h3{
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
 }
